@@ -1,0 +1,46 @@
+.form-container {
+
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.container-har-form {
+    margin-top: 10vh;
+    justify-content: center;
+    height: 80vh;
+    display: flex;
+    width: 150vh;
+    background-color: #020b18ae;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid var(--color-white);
+    gap: 50px;
+    padding: 20px;
+}
+
+.hat {
+    display: flex;
+    height: 60vh;
+    margin-top: 5vh;
+
+
+
+}
+
+.container-Form {
+    color: var(--color-white);
+    border: 1px solid #ffffff3c;
+    border-radius: 20px;
+    background-color: #020b18ae;
+    height: 70vh;
+    display: flex;
+    width: 80vh;
+
+
+}
