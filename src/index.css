@@ -1,0 +1,152 @@
+
+.video-intro {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.title-harry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: clamp(3rem, 15vw, 9rem); 
+  font-family: "MisteryQuest", cursive;
+  margin-top: 20vh;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.title-harry span {
+  display: inline-block;
+  opacity: 0;
+  background: linear-gradient(to bottom, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.8s forwards, wave 2s ease-in-out infinite;
+}
+
+/* Delays das Letras */
+.title-harry span:nth-child(1) { animation-delay: 0s, 0.8s; }
+.title-harry span:nth-child(2) { animation-delay: 0.1s, 0.9s; }
+.title-harry span:nth-child(3) { animation-delay: 0.2s, 1s; }
+.title-harry span:nth-child(4) { animation-delay: 0.3s, 1.1s; }
+.title-harry span:nth-child(5) { animation-delay: 0.4s, 1.2s; }
+.title-harry span:nth-child(6) { animation-delay: 0.5s, 1.3s; }
+
+/* MENSAGENS */
+.message-display {
+  text-align: center;
+  font-size: clamp(1rem, 5vw, 1.5rem); 
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 0 15px;
+  text-shadow: 1px 1px 10px black;
+}
+
+/* BOTÃO CUSTOMIZADO */
+.container {
+  width: 100%;
+  height: auto; 
+  min-height: 120px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #d2c107;
+  outline: none;
+  transition: 1s ease-in-out;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  background: rgba(79, 149, 218, 0.3);
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 480px) {
+  .title-harry {
+    margin-top: 0vh;
+      flex-wrap:nowrap;
+  }
+  
+  .message-display {
+    margin-top: 10px;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 947px) {
+  .title-harry {
+    margin-top: 20vh;
+      flex-wrap:nowrap;
+  }
+  
+  .message-display {
+    margin-top: 10px;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+}
+
+/* Animações */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px) scale(0.8); filter: blur(5px); }
+  100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+}
+
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); } /* Diminuído para não tremer muito no mobile */
+}

@@ -1,0 +1,40 @@
+:root {
+    /* Cores principais */
+    --color-black: #0d0d0d;
+    --color-dark-gray: #1f1f1f;
+    --color-gray: #5f3f04;
+    --color-light-gray: #bdbdbd;
+    --color-white: #ffffff;
+
+    /* Cores destaque */
+    --color-red: #ff3b3b;
+    --color-yellow: #ffd93d;
+    --color-green: #32d74b;
+    --color-orange: #ff8c32;
+
+    /* Backgrounds */
+    --bg-primary: var(--color-black);
+    --bg-secondary: var(--color-dark-gray);
+    --bg-card: rgba(255, 255, 255, 0.05);
+
+    /* Textos */
+    --text-primary: var(--color-white);
+    --text-secondary: var(--color-light-gray);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
