@@ -12,6 +12,7 @@ const form = () => {
                 <div className="container-Form">
                     <h1>Bem vindo ao chapeú seletor</h1>
                     <p>Marque as opções abaixo</p>
+                    
                 </div>
             </div>
 
