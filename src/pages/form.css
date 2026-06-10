@@ -41,10 +41,35 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    text-align:center;
+    text-align: center;
 
 
 
+
+}
+
+.container-quiz {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.btn-quiz {
+    cursor: pointer;
+    background-color: #020b18ae;
+    border-radius: 10px;
+    border: 2px solid var(--color-white);
+    color:var(--color-White);
+    width: 200px;
+    height: 150px;
+
+}
+.btn-quiz:hover {
+    cursor: pointer;
+    background-color: #8f7f5eae;
+  
 
 }
 
