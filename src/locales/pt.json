@@ -1,0 +1,213 @@
+{
+  "intro": {
+    "button": "Começar",
+    "messages1": "Bem-vindo ao Chapéu Seletor!",
+    "messages2": " Responda às perguntas para descobrir em qual casa você pertence. ",
+    "messages3": "Cada resposta revela um pouco mais sobre sua personalidade.",
+    "messages4":" Prepare-se para descobrir sua verdadeira casa em Hogwarts!",
+    "messages5": "Clique no botão abaixo para começar a aventura!"
+  },
+  "form": {
+    "title": "Bem-vindo ao Chapéu Seletor",
+    "step": "Pergunta {{current}} de {{total}}",
+    "btn_restart": "Refazer Teste",
+    "result_title": "O Chapéu Seletor falou!",
+    "result_subtitle": "Sua casa é...",
+    "houses": {
+      "Grifinoria": "Grifinória",
+      "Sonserina": "Sonserina",
+      "Corvinal": "Corvinal",
+      "LufaLufa": "Lufa-Lufa"
+    },
+    "quiz": [
+      {
+        "pergunta": "Qual qualidade você mais valoriza?",
+        "respostas": {
+          "Grifinoria": "Coragem e determinação",
+          "Sonserina": "Ambição e liderança",
+          "Corvinal": "Inteligência e criatividade",
+          "LufaLufa": "Lealdade e honestidade."
+        }
+      },
+      {
+        "pergunta": "Um amigo está em perigo. O que você faz?",
+        "respostas": {
+          "Grifinoria": "Corro para ajudá-lo imediatamente.",
+          "Sonserina": "Elaboro um plano para resolver a situação.",
+          "Corvinal": "Analiso as melhores opções antes de agir.",
+          "LufaLufa": "Reúno outras pessoas para ajudar."
+        }
+      },
+      {
+        "pergunta": "Qual matéria de Hogwarts você escolheria?",
+        "respostas": {
+          "Grifinoria": "Defesa Contra as Artes das Trevas.",
+          "Sonserina": "Poções.",
+          "Corvinal": "Feitiços.",
+          "LufaLufa": "Herbologia."
+        }
+      },
+      {
+        "pergunta": "O que mais te motiva?",
+        "respostas": {
+          "Grifinoria": "Fazer a coisa certa.",
+          "Sonserina": "Alcançar grandes objetivos.",
+          "Corvinal": "Aprender coisas novas.",
+          "LufaLufa": "Ajudar as pessoas."
+        }
+      },
+      {
+        "pergunta": "Como você gosta de ser reconhecido?",
+        "respostas": {
+          "Grifinoria": "Pela coragem.",
+          "Sonserina": "Pelo sucesso.",
+          "Corvinal": "Pela inteligência.",
+          "LufaLufa": "Pela bondade."
+        }
+      },
+      {
+        "pergunta": "Qual lugar de Hogwarts você exploraria primeiro?",
+        "respostas": {
+          "Grifinoria": "A Floresta Proibida.",
+          "Sonserina": "As masmorras.",
+          "Corvinal": "A biblioteca.",
+          "LufaLufa": "As cozinhas."
+        }
+      },
+      {
+        "pergunta": "Em um trabalho em grupo, você é:",
+        "respostas": {
+          "Grifinoria": "O líder que incentiva todos.",
+          "Sonserina": "O estrategista.",
+          "Corvinal": "O pesquisador.",
+          "LufaLufa": "O que mantém a equipe unida."
+        }
+      },
+      {
+        "pergunta": "Qual animal você escolheria como companheiro?",
+        "respostas": {
+          "Grifinoria": "Leão.",
+          "Sonserina": "Serpente.",
+          "Corvinal": "Coruja.",
+          "LufaLufa": "Texugo."
+        }
+      },
+      {
+        "pergunta": "Se pudesse ter um superpoder, qual seria?",
+        "respostas": {
+          "Grifinoria": "Superforça.",
+          "Sonserina": "Controle da mente.",
+          "Corvinal": "Teletransporte.",
+          "LufaLufa": "Cura."
+        }
+      },
+      {
+        "pergunta": "Qual frase mais combina com você?",
+        "respostas": {
+          "Grifinoria": "A coragem supera o medo.",
+          "Sonserina": "O sucesso é conquistado.",
+          "Corvinal": "Conhecimento é poder.",
+          "LufaLufa": "A união faz a força."
+        }
+      },
+      {
+        "pergunta": "Qual objeto mágico você gostaria de possuir?",
+        "respostas": {
+          "Grifinoria": "A Espada de Grifinória.",
+          "Sonserina": "A Varinha das Varinhas.",
+          "Corvinal": "Um livro com todo o conhecimento do mundo.",
+          "LufaLufa": "Um objeto que protegesse quem você ama."
+        }
+      },
+      {
+        "pergunta": "Como seus amigos te descreveriam?",
+        "respostas": {
+          "Grifinoria": "Corajoso.",
+          "Sonserina": "Determinado.",
+          "Corvinal": "Inteligente.",
+          "LufaLufa": "Confiável."
+        }
+      }
+    ]
+  },
+  "house_details": {
+    "Grifinoria": {
+      "founder": "Godric Gryffindor",
+      "traits": [
+        "Coragem",
+        "Determinação",
+        "Lealdade",
+        "Ousadia",
+        "Espírito aventureiro"
+      ],
+      "symbol": "Leão 🦁",
+      "colors": "Vermelho e dourado",
+      "element": "Fogo",
+      "famous": [
+        "Harry Potter",
+        "Hermione Granger",
+        "Ron Weasley"
+      ]
+    },
+    "Sonserina": {
+      "founder": "Salazar Slytherin",
+      "traits": [
+        "Ambição",
+        "Inteligência estratégica",
+        "Liderança",
+        "Astúcia",
+        "Determinação"
+      ],
+      "symbol": "Serpente 🐍",
+      "colors": "Verde e prata",
+      "element": "Água",
+      "famous": [
+        "Draco Malfoy",
+        "Severus Snape",
+        "Lord Voldemort"
+      ]
+    },
+    "Corvinal": {
+      "founder": "Rowena Ravenclaw",
+      "traits": [
+        "Inteligência",
+        "Criatividade",
+        "Sabedoria",
+        "Curiosidade",
+        "Originalidade"
+      ],
+      "symbol": "Águia 🦅",
+      "colors": "Azul e bronze",
+      "element": "Ar",
+      "famous": [
+        "Luna Lovegood",
+        "Cho Chang"
+      ]
+    },
+    "LufaLufa": {
+      "founder": "Helga Hufflepuff",
+      "traits": [
+        "Lealdade",
+        "Honestidade",
+        "Paciência",
+        "Trabalho em equipe",
+        "Gentileza"
+      ],
+      "symbol": "Texugo 🦡",
+      "colors": "Amarelo e preto",
+      "element": "Terra",
+      "famous": [
+        "Cedric Diggory",
+        "Nymphadora Tonks",
+        "Newt Scamander"
+      ]
+    }
+  },
+  "labels": {
+    "founder": "Fundador",
+    "traits": "Características",
+    "colors": "Cores",
+    "element": "Elemento",
+    "famous": "Personagens famosos"
+  }
+}

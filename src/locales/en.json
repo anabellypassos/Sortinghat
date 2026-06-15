@@ -1,0 +1,213 @@
+{
+  "intro": {
+    "button": "To start",
+    "messages1": "Welcome to the Sorting Hat!",
+    "messages2": "Answer the questions to find out which house you belong to.",
+    "messages3": "Each answer reveals a little more about your personality.",
+    "messages4": "Get ready to discover your true Hogwarts house!",
+    "messages5": "Click the button below to start the adventure!"
+  },
+  "form": {
+    "title": "Welcome to the Sorting Hat",
+    "step": "Question {{current}} of {{total}}",
+    "btn_restart": "Retake Quiz",
+    "result_title": "The Sorting Hat has spoken!",
+    "result_subtitle": "Your house is...",
+    "houses": {
+      "Grifinoria": "Gryffindor",
+      "Sonserina": "Slytherin",
+      "Corvinal": "Ravenclaw",
+      "LufaLufa": "Hufflepuff"
+    },
+    "quiz": [
+      {
+        "pergunta": "Which quality do you value most?",
+        "respostas": {
+          "Grifinoria": "Courage and determination",
+          "Sonserina": "Ambition and leadership",
+          "Corvinal": "Intelligence and creativity",
+          "LufaLufa": "Loyalty and honesty."
+        }
+      },
+      {
+        "pergunta": "A friend is in danger. What do you do?",
+        "respostas": {
+          "Grifinoria": "I run to help them immediately.",
+          "Sonserina": "I devise a plan to solve the situation.",
+          "Corvinal": "I analyze the best options before acting.",
+          "LufaLufa": "I gather other people to help."
+        }
+      },
+      {
+        "pergunta": "Which Hogwarts subject would you choose?",
+        "respostas": {
+          "Grifinoria": "Defense Against the Dark Arts.",
+          "Sonserina": "Potions.",
+          "Corvinal": "Charms.",
+          "LufaLufa": "Herbology."
+        }
+      },
+      {
+        "pergunta": "What motivates you the most?",
+        "respostas": {
+          "Grifinoria": "Doing the right thing.",
+          "Sonserina": "Achieving great goals.",
+          "Corvinal": "Learning new things.",
+          "LufaLufa": "Helping people."
+        }
+      },
+      {
+        "pergunta": "How do you like to be recognized?",
+        "respostas": {
+          "Grifinoria": "For your courage.",
+          "Sonserina": "For your success.",
+          "Corvinal": "For your intelligence.",
+          "LufaLufa": "For your kindness."
+        }
+      },
+      {
+        "pergunta": "Which Hogwarts place would you explore first?",
+        "respostas": {
+          "Grifinoria": "The Forbidden Forest.",
+          "Sonserina": "The Dungeons.",
+          "Corvinal": "The Library.",
+          "LufaLufa": "The Kitchens."
+        }
+      },
+      {
+        "pergunta": "In a group project, you are:",
+        "respostas": {
+          "Grifinoria": "The leader who encourages everyone.",
+          "Sonserina": "The strategist.",
+          "Corvinal": "The researcher.",
+          "LufaLufa": "The one who keeps the team together."
+        }
+      },
+      {
+        "pergunta": "Which animal would you choose as a companion?",
+        "respostas": {
+          "Grifinoria": "Lion.",
+          "Sonserina": "Serpent.",
+          "Corvinal": "Owl.",
+          "LufaLufa": "Badger."
+        }
+      },
+      {
+        "pergunta": "If you could have a superpower, what would it be?",
+        "respostas": {
+          "Grifinoria": "Super strength.",
+          "Sonserina": "Mind control.",
+          "Corvinal": "Teleportation.",
+          "LufaLufa": "Healing."
+        }
+      },
+      {
+        "pergunta": "Which phrase suits you best?",
+        "respostas": {
+          "Grifinoria": "Courage overcomes fear.",
+          "Sonserina": "Success is earned.",
+          "Corvinal": "Knowledge is power.",
+          "LufaLufa": "Unity is strength."
+        }
+      },
+      {
+        "pergunta": "Which magical object would you like to own?",
+        "respostas": {
+          "Grifinoria": "The Sword of Gryffindor.",
+          "Sonserina": "The Elder Wand.",
+          "Corvinal": "A book with all the world's knowledge.",
+          "LufaLufa": "An object that protects those you love."
+        }
+      },
+      {
+        "pergunta": "How would your friends describe you?",
+        "respostas": {
+          "Grifinoria": "Brave.",
+          "Sonserina": "Determined.",
+          "Corvinal": "Intelligent.",
+          "LufaLufa": "Reliable."
+        }
+      }
+    ]
+  },
+  "house_details": {
+    "Grifinoria": {
+      "founder": "Godric Gryffindor",
+      "traits": [
+        "Courage",
+        "Determination",
+        "Loyalty",
+        "Daring",
+        "Adventurous spirit"
+      ],
+      "symbol": "Lion 🦁",
+      "colors": "Red and gold",
+      "element": "Fire",
+      "famous": [
+        "Harry Potter",
+        "Hermione Granger",
+        "Ron Weasley"
+      ]
+    },
+    "Sonserina": {
+      "founder": "Salazar Slytherin",
+      "traits": [
+        "Ambition",
+        "Strategic intelligence",
+        "Leadership",
+        "Cunning",
+        "Determination"
+      ],
+      "symbol": "Serpent 🐍",
+      "colors": "Green and silver",
+      "element": "Water",
+      "famous": [
+        "Draco Malfoy",
+        "Severus Snape",
+        "Lord Voldemort"
+      ]
+    },
+    "Corvinal": {
+      "founder": "Rowena Ravenclaw",
+      "traits": [
+        "Intelligence",
+        "Creativity",
+        "Wisdom",
+        "Curiosity",
+        "Originality"
+      ],
+      "symbol": "Eagle 🦅",
+      "colors": "Blue and bronze",
+      "element": "Air",
+      "famous": [
+        "Luna Lovegood",
+        "Cho Chang"
+      ]
+    },
+    "LufaLufa": {
+      "founder": "Helga Hufflepuff",
+      "traits": [
+        "Loyalty",
+        "Honesty",
+        "Patience",
+        "Teamwork",
+        "Kindness"
+      ],
+      "symbol": "Badger 🦡",
+      "colors": "Yellow and black",
+      "element": "Earth",
+      "famous": [
+        "Cedric Diggory",
+        "Nymphadora Tonks",
+        "Newt Scamander"
+      ]
+    }
+  },
+  "labels": {
+    "founder": "Founder",
+    "traits": "Characteristics",
+    "colors": "Colors",
+    "element": "Element",
+    "famous": "Famous characters"
+  }
+}

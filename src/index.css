@@ -1,4 +1,41 @@
+/* Container do seletor */
+.language-switcher {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 100; 
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: white;
+  font-family: serif;
+}
 
+
+.language-switcher button {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.language-switcher button:hover {
+  color: #fff;
+  text-shadow: 0 0 8px gold;
+}
+
+.language-switcher button.active {
+  color: gold;
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+.language-switcher span {
+  opacity: 0.5;
+}
 .video-intro {
   width: 100vw;
   height: 100vh;
@@ -139,7 +176,7 @@
 }
 @media (max-width: 480px) {
   .title-harry {
-    margin-top: 0vh;
+    margin-top: 40vh;
       flex-wrap:nowrap;
   }
   
