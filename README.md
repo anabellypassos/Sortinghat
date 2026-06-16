@@ -51,7 +51,6 @@ The project showcases advanced **React** concepts like:
 
   <p align="center">
     <img src="Capturarfujt.PNG" />
-    <img src="Capturar.PNG" />
     <img src="Capturarfg.PNG" />
     <img src="Capturarhgj.PNG" />
   </p>
