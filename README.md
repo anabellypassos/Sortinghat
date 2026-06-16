@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/src/assets/banner.png" alt="Hogwarts Banner" width="100%">
+  <img src="banner.png" alt="Hogwarts Banner" width="100%">
 
   # ⚡ Hogwarts Sorting Hat Experience
 
   <p align="center">
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-    <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
-    <img src="https://img.shields.io/badge/i18next-009688?style=for-the-badge&logo=i18next&logoColor=white" />
-    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+    <img src="Capturarfujt.PNG" />
+    <img src="Capturar.PNG" />
+    <img src="Capturaryu.PNG" />
+    <img src="Capturaryuii.PNG" />
   </p>
 
   <p><strong>Step into the Wizarding World and discover your true Hogwarts House!</strong></p>
