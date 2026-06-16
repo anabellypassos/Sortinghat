@@ -3,12 +3,7 @@
 
   # ⚡ Hogwarts Sorting Hat Experience
 
-  <p align="center">
-    <img src="Capturarfujt.PNG" />
-    <img src="Capturar.PNG" />
-    <img src="Capturaryu.PNG" />
-    <img src="Capturaryuii.PNG" />
-  </p>
+
 
   <p><strong>Step into the Wizarding World and discover your true Hogwarts House!</strong></p>
 
@@ -54,10 +49,12 @@ The project showcases advanced **React** concepts like:
 
 ## 📸 Preview
 
-<div align="center">
-  <img src="https://via.placeholder.com/400x250.png?text=Intro+Screen+Preview" width="45%" />
-  <img src="https://via.placeholder.com/400x250.png?text=Sorting+Result+Preview" width="45%" />
-</div>
+  <p align="center">
+    <img src="Capturarfujt.PNG" />
+    <img src="Capturar.PNG" />
+    <img src="Capturarfg.PNG" />
+    <img src="Capturarhgj.PNG" />
+  </p>
 
 ---
 
@@ -92,4 +89,4 @@ Developer: Seu Nome
 <br />
 <sub>Built with ❤️ and Magic.</sub>
 </div>
-```
+
