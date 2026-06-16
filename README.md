@@ -1,16 +1,95 @@
-# React + Vite
+<div align="center">
+  <img src="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/src/assets/banner.png" alt="Hogwarts Banner" width="100%">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  # ⚡ Hogwarts Sorting Hat Experience
 
-Currently, two official plugins are available:
+  <p align="center">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+    <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+    <img src="https://img.shields.io/badge/i18next-009688?style=for-the-badge&logo=i18next&logoColor=white" />
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  </p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+  <p><strong>Step into the Wizarding World and discover your true Hogwarts House!</strong></p>
 
-## React Compiler
+  [Explore the Demo](#-live-demo) • [Features](#-key-features) • [Tech Stack](#-built-with) • [Installation](#-how-to-run)
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📖 About the Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is a fully immersive, multilingual React application. It features a cinematic introduction with video backgrounds and atmospheric music, leading the user through a magical quiz. Using a custom algorithm, the **Sorting Hat** analyzes your choices to assign you to Gryffindor, Slytherin, Ravenclaw, or Hufflepuff.
+
+The project showcases advanced **React** concepts like:
+- Complex state management for quiz scoring.
+- Smooth UI transitions with **Framer Motion**.
+- Dynamic internationalization (**i18next**) for Portuguese and English.
+
+---
+
+## ✨ Key Features
+
+- 🎬 **Cinematic Intro:** Immersive video background with auto-playing atmospheric music.
+- 🌍 **Multilingual:** Seamlessly switch between 🇧🇷 **PT-BR** and 🇺🇸 **EN-US**.
+- 🧠 **Smart Quiz:** A dynamic questionnaire that calculates house points in real-time.
+- 🎨 **Visual Reveal:** A high-impact result page with:
+  - **Dynamic Theming:** UI colors change based on the sorted house.
+  - **House Lore:** Displays founders, elements, and famous characters.
+  - **Animated Cards:** Cascade animations for a magical feel.
+
+---
+
+## 🛠 Built With
+
+| Tech | Purpose |
+| :--- | :--- |
+| **React 18** | Component-based UI architecture |
+| **Framer Motion** | Complex entrance and exit animations |
+| **i18next** | Global translation and localization |
+| **React Router 6** | Navigation between Intro and Quiz |
+| **CSS3** | Custom glassmorphism and wizarding aesthetics |
+
+---
+
+## 📸 Preview
+
+<div align="center">
+  <img src="https://via.placeholder.com/400x250.png?text=Intro+Screen+Preview" width="45%" />
+  <img src="https://via.placeholder.com/400x250.png?text=Sorting+Result+Preview" width="45%" />
+</div>
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the magic:**
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+Enter the chamber:
+code
+Bash
+cd seu-repositorio
+Install the spells (dependencies):
+code
+Bash
+npm install
+Cast the server:
+code
+Bash
+npm run dev
+🧙 Character & House Logic
+The application uses a specialized mapping system to link house results with their respective assets:
+Gryffindor: Fire element, Bravery traits, and icons like Harry, Hermione, and Ron.
+Slytherin: Water element, Ambition traits, and icons like Snape and Voldemort.
+Ravenclaw: Air element, Wisdom traits, and icons like Luna and Cho.
+Hufflepuff: Earth element, Loyalty traits, and icons like Cedric and Newt.
+📜 Credits
+Soundtrack: Harry Potter Theme Music.
+Visuals: All images and videos are inspired by the Wizarding World of J.K. Rowling.
+Developer: Seu Nome
+<div align="center">
+<br />
+<sub>Built with ❤️ and Magic.</sub>
+</div>
+```
