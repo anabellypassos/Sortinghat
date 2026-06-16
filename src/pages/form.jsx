@@ -185,7 +185,7 @@ const Form = () => {
                                 variants={itemVariants}
                                 className="restart-btn-large"
                                 style={{ borderColor: assets.primary, color: assets.primary }}
-                                onClick={reiniciarQuiz} // Altere aqui de window.location.reload() para reiniciarQuiz
+                                onClick={reiniciarQuiz} 
                             >
                                 {t('form.btn_restart')}
                             </motion.button>
