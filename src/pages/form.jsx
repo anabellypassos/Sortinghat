@@ -69,6 +69,16 @@ const Form = () => {
         hidden: { y: 20, opacity: 0 },
         visible: { y: 0, opacity: 1 }
     };
+    const reiniciarQuiz = () => {
+        setIndicePergunta(0);
+        setQuizFinalizado(false);
+        setPontos({
+            Grifinoria: 0,
+            Sonserina: 0,
+            Corvinal: 0,
+            LufaLufa: 0
+        });
+    };
 
     return (
         <div className="main-wrapper">
@@ -87,12 +97,12 @@ const Form = () => {
                             <div className="container-hat">
                                 <img src={hat} alt="Chapéu Seletor" className="hat-large" />
                             </div>
-                            
+
                             <div className="container-Form">
                                 <h1 className="main-title">{t('form.title')}</h1>
                                 <p className="step-text">{t('form.step', { current: indicePergunta + 1, total: perguntas.length })}</p>
                                 <h2 className="question-text">{perguntaAtual?.pergunta}</h2>
-                                
+
                                 <div className="container-quiz">
                                     {perguntaAtual && Object.keys(perguntaAtual.respostas).map((casa) => (
                                         <button key={casa} className="btn-quiz" onClick={() => lidarComResposta(casa)}>
@@ -103,13 +113,13 @@ const Form = () => {
                             </div>
                         </motion.div>
                     ) : (
-                        <motion.div 
-                            key="result" 
-                            className="result-mega-layout" 
+                        <motion.div
+                            key="result"
+                            className="result-mega-layout"
                             variants={listVariants} initial="hidden" animate="visible"
                         >
                             <div className="magic-glow-bg" style={{ background: assets.primary }}></div>
-                            
+
                             <motion.h1 variants={itemVariants} className="result-title-main">{t('form.result_title')}</motion.h1>
                             <motion.h2 variants={itemVariants} className={`house-name-display ${chaveGanhadora}`} style={{ color: assets.primary }}>
                                 {t(`form.houses.${chaveGanhadora}`)}!
@@ -171,11 +181,11 @@ const Form = () => {
                                 </div>
                             </motion.div>
 
-                            <motion.button 
+                            <motion.button
                                 variants={itemVariants}
-                                className="restart-btn-large" 
+                                className="restart-btn-large"
                                 style={{ borderColor: assets.primary, color: assets.primary }}
-                                onClick={() => window.location.reload()}
+                                onClick={reiniciarQuiz} // Altere aqui de window.location.reload() para reiniciarQuiz
                             >
                                 {t('form.btn_restart')}
                             </motion.button>
